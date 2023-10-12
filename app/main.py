@@ -12,6 +12,7 @@ def home():
 
 @app.route('/<random_string>')
 def backwards_string(random_string):
+    # commment
     return "".join(reversed(random_string))
 
 @app.route('/get-mode')
